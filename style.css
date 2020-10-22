@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  background-color: #192a56;
+  display: flex;
+  height: 4rem;
+  justify-content: flex-end;
+}
+
+nav li {
+  list-style: none;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #ddd;
+}
+
+@media screen and (max-width: 580px) {
+  nav ul {
+    display: flex;
+    margin: auto;
+    
+    
+  } 
+  nav li {
+    flex-direction: column;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
