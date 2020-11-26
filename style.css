@@ -33,16 +33,20 @@ nav li a:hover {
 @media only screen and (max-width: 600px) {
   nav ul {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 90px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    align-content: center;
+    padding: 20px;
+    font-size: 15px;
   }
 
-  #color {
-    background-color: #020202;
-    height: 500vh;
+  nav ul:hover {
+    background-color: #192a56;
+  }
+
+  #bg {
+    background: url('img/marketing.jpg') no-repeat center/cover;
+    height: 70vh;
     width: 100%;
   }
 }
