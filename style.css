@@ -39,6 +39,10 @@ nav li a:hover {
     padding: 20px;
     font-size: 15px;
   }
+  
+  nav li {
+    margin-right: 30px;
+  }
 
   nav ul:hover {
     background-color: #192a56;
