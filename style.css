@@ -36,12 +36,14 @@ nav li a:hover {
     /* flex-direction: column; */
     /* align-items: center; */
     align-content: center;
-    padding: 20px;
+    padding: 5px;
     font-size: 15px;
+    max-width: 100%;
   }
   
   nav li {
-    margin-right: 30px;
+    margin-right: 7px;
+    padding: 20 px;
   }
 
   nav ul:hover {
