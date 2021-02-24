@@ -1,9 +1,11 @@
 :root {
   --nav: #192a56;
 }
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 nav ul {
@@ -29,9 +31,30 @@ nav li a:hover {
 }
 
 #bg {
-  background: url('img/marketing.jpg') no-repeat center/cover;
+  background: url('../img/marketing.jpg') no-repeat center/cover;
   height: 100vh;
   width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 35px;
+}
+
+.background {
+  background-color: var(--nav);
+  height: 550px;
+}
+
+footer {
+  background-color: var(--nav);
+  height: 150px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -44,7 +67,7 @@ nav li a:hover {
     font-size: 15px;
     max-width: 100%;
   }
-  
+
   nav li {
     display: flex;
     margin-right: 7px;
