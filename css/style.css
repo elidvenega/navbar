@@ -1,5 +1,6 @@
 :root {
-  --nav: #192a56;
+  --nav: #ff9f43;
+  --body-color: #ee5253;
 }
 
 * {
@@ -48,7 +49,7 @@ p {
 }
 
 .background {
-  background-color: var(--nav);
+  background-color: var(--body-color);
   height: 550px;
 }
 
