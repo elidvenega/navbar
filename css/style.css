@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
 :root {
   --nav: #ff9f43;
   --body-color: #ee5253;
@@ -7,6 +10,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav ul {
